@@ -1,0 +1,28 @@
+.container {
+  overflow: auto;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.image {
+  width: 150px;
+}
+@media(max-width: 767px) {
+  .image {
+    width: 150px;
+  }
+}
+@media(max-width: 479px) {
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .image {
+    width: 150px;
+  }
+}
